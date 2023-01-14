@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Encriptador</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="script.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <div class="encabezado">
+
+                <div class="logo">
+
+                    <a href="main.html"><img src="Images/Logo.png" alt="Logo Alura" class="imglogo"></a>
+
+                </div>
+
+                <div class="titulo">
+
+                    <h1 class="txttitulo">- Encriptador -</h1> 
+
+                </div>
+
+            </div>
+
+            <div class="main">
+
+                <div class="entrada">
+
+                    <textarea name="name" id="texto" placeholder="Ingrese el texto aquí"></textarea>
+                    <p class="advertencia">&#128712 Letras minúsculas y sin acentos.</p> 
+
+                </div>
+
+                <div class="salida">
+
+                    <img src="Images/Muñeco.png" alt="ImagenMuñeco" id="img1">
+                    <p id="msj1">Ningún mensaje fue encontrado.</p>
+                    <textarea name="name" id="msj2">Ingresa el texto que desees encriptar o desencriptar.</textarea>
+
+                </div>
+
+                <div class="botonent">
+
+                    <div class="benc">
+
+                        <button id="encriptar" type="button" onclick="encriptar()">Encriptar</button>
+    
+                    </div>
+    
+                    <div class="bdesenc">
+
+                        <button id="desencriptar" type="button" onclick="desencriptar()">Desencriptar</button>
+    
+                    </div>
+    
+                </div>
+
+                <div class="botonsal">
+
+                    <div class="bcop">
+
+                        <button id="copiar" type="button" onclick="copiar()">Copiar</button>
+    
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    
+    </body>
+</html>
